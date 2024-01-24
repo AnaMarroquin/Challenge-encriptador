@@ -1,0 +1,96 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    background-color: #F3F5FC;
+}
+.texto{
+    position: absolute;
+    width: 42%;
+    height: 80%;
+    left: 12%;
+    top: 20%;
+    border: none;
+    font-style: normal;
+    font-size: 20px;
+    background-color: #F3F5FC;
+}
+.texto::placeholder{
+    color: #0A3871;
+
+}
+.texto:focus, .texto:active{
+    border: none;
+    outline: none;
+}
+.condiciones{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    pad: 0px;
+    gap: 8px;
+    position: absolute;
+    width: 80%;
+    left: 12%;
+    top: 82%;
+}
+.condiciones p{
+    font-size: 12px;
+    font-style: normal;
+    color: #495057;
+    flex: none;
+}
+.botones{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 1% 0;
+    position: absolute;
+    width: 80%;
+    left: 12%;
+    top: 85%;
+}
+.bontonEncriptar{
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    gap: 8px;
+    width: 25%;
+    background-color: #0A3871;
+    border-radius: 25px;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    transition: 1s all;
+    cursor: pointer;
+}
+.bontonDesencriptar{
+    box-sizing: border-box;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 2%;
+    gap: 8px;
+    width: 25%;
+    background-color: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 25px;
+    font-size: 18px;
+    text-align: center;
+    color: #0A3871;
+    margin: 0 30px;
+    transition: 1s all;
+    cursor: pointer;
+}
+.bontonEncriptar:hover, .bontonDesencriptar:hover{
+    transform: scale(1.2);
+}
+/*.textoResultado{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    height: 80%;
+    left: 60%;
+    box-shadow: 0px 24px 32px -8px rgba(0,0,0,0.08);
+    border-radius: 30px;
+}
+*/
