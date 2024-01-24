@@ -195,6 +195,16 @@ body{
 }
 /*Diseño responsivo*/
 @media (max-width:480px) {
+    header{
+        width: 375px;
+        height: 50px;
+    }
+    header img{
+        width: 40px;
+        height: 40px;
+        top: 24px;
+        left: 16px;
+    }
     .container{
         display: flex;
         flex-direction: row;
@@ -203,40 +213,47 @@ body{
         width: 100%;
     }
     .texto{
-        width: 80%;
-        height: 60%;
-        left: 10%;
-        top: 5%;
+        width: 343px;
+        height: 48px;
+        left: 16px;
+        top: 15px;
     }
     .condiciones{
-        width: 80%;
-        left: 10%;
-        top: 67%;
+        width: 229px;
+        height: 18px;
+        left: 16px;
+        top: 280px;
     }
     .condiciones p{
-        font-size: 16px;
+        font-size: 10px;
     }
     .botones{
-        width: 80%;
-        left: 10%;
-        top: 70%;
+        width: 450px;
+        left: 16px;
+        top: 295px;
+        display: inline-grid;
     }
     .bontonEncriptar, .bontonDesencriptar{
+        margin: 10px 0px;
         width: 48%;
         border-radius: 16px;
+        font-size: 14px
     }
     .bontonEncriptar:hover, .bontonDesencriptar:hover{
-        transform: scale(1.4);
+        transform: scale(1.2);
     }
     .textoResultado{
-        width: 80%;
-        height: 15%;
-        left: 10%;
-        top: 80%;
+        width: 229px;
+        height: 300px;
+        left: 10px;
+        top: 500px;
     }
     .mensajeEncriptado{
-        width: 100%;
+        width: 80%;
         top: 5%;
+    }
+    .mensajeEncriptado h2, .mensajeEncriptado textarea{
+        font-size: 14px;
     }
     .textoResultado img{
         top: 0;
