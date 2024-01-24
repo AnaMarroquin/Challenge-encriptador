@@ -10,7 +10,9 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">        
     </head>
-
+    <header>
+        <img src="img/Logo.jpg" alt="Logo de Alura">
+    </header>
     <body>
         <main class="container">
             <div class="encriptador">
@@ -27,11 +29,11 @@
             </div>
 
             <div class="textoResultado">
-                <img src="img/Muñeco.png" alt="muñeco" id="muñeco">
-                <textarea name="mensajeEncriptado" id="mensajeResultado" cols="30" rows="10" class="mensajeResultado"></textarea>
                 <div class="mensajeEncriptado">
+                <img src="img/Muñeco.png" alt="muñeco" id="muñeco">
                 <h2 id="tituloMensaje"> Ningun mensaje fue encontrado</h2>
-                <p id="parrafoMensaje">Ingresa el texto que deseas encriptar o desencriptar :)</p>
+                <textarea name="mensaje" id="mensaje" cols="30" rows="10" class="mensaje">Ingresa el texto que deseas encriptar o desencriptar :)</textarea>
+                <button id="Copiar" type="button" class="Copiar" onclick="Copiar()">Copiar</button>
                 </div>
             </div>
         </main>
