@@ -143,10 +143,25 @@ body{
     text-align: center;
     color: #495057;
 }
-.textoResultado img{
-    position: absolute;
+.mensajeResultado{
+    position: relative;
     width: 80%;
+    height: 60%;
+    top: 5%;
+    border: none;
+    font-size: 24px;
+    font-weight: 400;
+
+} 
+.mensajeResultado:focus, .mensajeResultado:active{
+    border: none;
+    outline: none;
+}
+.textoResultado img{
+    position: relative;
+    width: 100%;
     height: 50%;
+    left: 15%;
     top: 15%;
 }
 /*Diseño responsivo*/
